@@ -13,7 +13,7 @@
 程序实际运行并不会生成这些文件夹，会生成checkpoints、DataTxt、logs、results、weight_maps文件夹。
 
     这个项目的设计和运行都和我的jittor框架复现Unet一样。这里只有环境配置信息。
-    jittor框架链接:
+    jittor框架链接:https://github.com/xyt732/xyt
 
 
 ## 环境配置
