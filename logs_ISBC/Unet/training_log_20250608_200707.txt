@@ -1,0 +1,1478 @@
+===== 训练配置 =====
+data_dir: ./DataTxt
+batch_size: 1
+learning_rate: 1e-05
+device: cuda
+model: UNet
+criterion: WeightedCrossEntropyLoss
+optimizer: Adam
+is_grayscale: True
+total_epochs: 200
+val_start_epoch: 50
+dropout_probs: [0.2, 0.3, 0.4, 0.5]
+bilinear: True
+w0: 10
+sigma: 5.0
+start_time: 2025-06-08 20:15:37
+
+Epoch 1/200
+  Train Loss: 0.7819
+  epoch_time: 29.4202
+  throughput: 3.0591
+
+Epoch 2/200
+  Train Loss: 0.6790
+  epoch_time: 31.8579
+  throughput: 2.8250
+
+Epoch 3/200
+  Train Loss: 0.6392
+  epoch_time: 34.1977
+  throughput: 2.6318
+
+Epoch 4/200
+  Train Loss: 0.6136
+  epoch_time: 34.8723
+  throughput: 2.5808
+
+Epoch 5/200
+  Train Loss: 0.5948
+  epoch_time: 35.1765
+  throughput: 2.5585
+
+Epoch 6/200
+  Train Loss: 0.5741
+  epoch_time: 37.5486
+  throughput: 2.3969
+
+Epoch 7/200
+  Train Loss: 0.5555
+  epoch_time: 40.0253
+  throughput: 2.2486
+
+Epoch 8/200
+  Train Loss: 0.5421
+  epoch_time: 38.4608
+  throughput: 2.3400
+
+Epoch 9/200
+  Train Loss: 0.5304
+  epoch_time: 39.4400
+  throughput: 2.2819
+
+Epoch 10/200
+  Train Loss: 0.5214
+  epoch_time: 40.3128
+  throughput: 2.2325
+
+Epoch 11/200
+  Train Loss: 0.5138
+  epoch_time: 41.0432
+  throughput: 2.1928
+
+Epoch 12/200
+  Train Loss: 0.5078
+  epoch_time: 40.9628
+  throughput: 2.1971
+
+Epoch 13/200
+  Train Loss: 0.5034
+  epoch_time: 40.9514
+  throughput: 2.1977
+
+Epoch 14/200
+  Train Loss: 0.4990
+  epoch_time: 42.0861
+  throughput: 2.1385
+
+Epoch 15/200
+  Train Loss: 0.4960
+  epoch_time: 40.4723
+  throughput: 2.2237
+
+Epoch 16/200
+  Train Loss: 0.4922
+  epoch_time: 42.6489
+  throughput: 2.1103
+
+Epoch 17/200
+  Train Loss: 0.4894
+  epoch_time: 41.5846
+  throughput: 2.1643
+
+Epoch 18/200
+  Train Loss: 0.4868
+  epoch_time: 42.7867
+  throughput: 2.1035
+
+Epoch 19/200
+  Train Loss: 0.4853
+  epoch_time: 43.6631
+  throughput: 2.0612
+
+Epoch 20/200
+  Train Loss: 0.4831
+  epoch_time: 43.3473
+  throughput: 2.0763
+
+Epoch 21/200
+  Train Loss: 0.4803
+  epoch_time: 44.1632
+  throughput: 2.0379
+
+Epoch 22/200
+  Train Loss: 0.4794
+  epoch_time: 44.1974
+  throughput: 2.0363
+
+Epoch 23/200
+  Train Loss: 0.4790
+  epoch_time: 44.1473
+  throughput: 2.0386
+
+Epoch 24/200
+  Train Loss: 0.4753
+  epoch_time: 44.7176
+  throughput: 2.0126
+
+Epoch 25/200
+  Train Loss: 0.4750
+  epoch_time: 44.8898
+  throughput: 2.0049
+
+Epoch 26/200
+  Train Loss: 0.4740
+  epoch_time: 44.6365
+  throughput: 2.0163
+
+Epoch 27/200
+  Train Loss: 0.4727
+  epoch_time: 45.1064
+  throughput: 1.9953
+
+Epoch 28/200
+  Train Loss: 0.4718
+  epoch_time: 44.8057
+  throughput: 2.0087
+
+Epoch 29/200
+  Train Loss: 0.4693
+  epoch_time: 44.4578
+  throughput: 2.0244
+
+Epoch 30/200
+  Train Loss: 0.4697
+  epoch_time: 44.6823
+  throughput: 2.0142
+
+Epoch 31/200
+  Train Loss: 0.4680
+  epoch_time: 43.7678
+  throughput: 2.0563
+
+Epoch 32/200
+  Train Loss: 0.4671
+  epoch_time: 43.5355
+  throughput: 2.0673
+
+Epoch 33/200
+  Train Loss: 0.4665
+  epoch_time: 44.9323
+  throughput: 2.0030
+
+Epoch 34/200
+  Train Loss: 0.4658
+  epoch_time: 47.7157
+  throughput: 1.8862
+
+Epoch 35/200
+  Train Loss: 0.4639
+  epoch_time: 49.3555
+  throughput: 1.8235
+
+Epoch 36/200
+  Train Loss: 0.4626
+  epoch_time: 45.3918
+  throughput: 1.9827
+
+Epoch 37/200
+  Train Loss: 0.4631
+  epoch_time: 42.6525
+  throughput: 2.1101
+
+Epoch 38/200
+  Train Loss: 0.4617
+  epoch_time: 43.8041
+  throughput: 2.0546
+
+Epoch 39/200
+  Train Loss: 0.4617
+  epoch_time: 44.1356
+  throughput: 2.0392
+
+Epoch 40/200
+  Train Loss: 0.4588
+  epoch_time: 44.1314
+  throughput: 2.0394
+
+Epoch 41/200
+  Train Loss: 0.4600
+  epoch_time: 43.2143
+  throughput: 2.0826
+
+Epoch 42/200
+  Train Loss: 0.4587
+  epoch_time: 43.0312
+  throughput: 2.0915
+
+Epoch 43/200
+  Train Loss: 0.4566
+  epoch_time: 43.7859
+  throughput: 2.0555
+
+Epoch 44/200
+  Train Loss: 0.4557
+  epoch_time: 44.1147
+  throughput: 2.0401
+
+Epoch 45/200
+  Train Loss: 0.4564
+  epoch_time: 45.5283
+  throughput: 1.9768
+
+Epoch 46/200
+  Train Loss: 0.4554
+  epoch_time: 45.6522
+  throughput: 1.9714
+
+Epoch 47/200
+  Train Loss: 0.4581
+  epoch_time: 44.4667
+  throughput: 2.0240
+
+Epoch 48/200
+  Train Loss: 0.4564
+  epoch_time: 43.5235
+  throughput: 2.0678
+
+Epoch 49/200
+  Train Loss: 0.4577
+  epoch_time: 43.5738
+  throughput: 2.0655
+
+Epoch 50/200
+  Train Loss: 0.4542
+  epoch_time: 44.2957
+  throughput: 2.0318
+
+Epoch 51/200
+  Train Loss: 0.4539
+  epoch_time: 42.6948
+  throughput: 2.1080
+  IoU: 0.7772
+  Dice: 0.8744
+  F1: 0.8744
+
+Epoch 52/200
+  Train Loss: 0.4516
+  epoch_time: 42.0489
+  throughput: 2.1404
+  IoU: 0.7828
+  Dice: 0.8780
+  F1: 0.8780
+
+Epoch 53/200
+  Train Loss: 0.4496
+  epoch_time: 43.2068
+  throughput: 2.0830
+  IoU: 0.7821
+  Dice: 0.8775
+  F1: 0.8775
+
+Epoch 54/200
+  Train Loss: 0.4501
+  epoch_time: 42.9071
+  throughput: 2.0976
+  IoU: 0.7836
+  Dice: 0.8785
+  F1: 0.8785
+
+Epoch 55/200
+  Train Loss: 0.4490
+  epoch_time: 44.2397
+  throughput: 2.0344
+  IoU: 0.7820
+  Dice: 0.8774
+  F1: 0.8774
+
+Epoch 56/200
+  Train Loss: 0.4480
+  epoch_time: 43.5164
+  throughput: 2.0682
+  IoU: 0.7820
+  Dice: 0.8774
+  F1: 0.8774
+
+Epoch 57/200
+  Train Loss: 0.4486
+  epoch_time: 45.1167
+  throughput: 1.9948
+  IoU: 0.7751
+  Dice: 0.8730
+  F1: 0.8730
+
+Epoch 58/200
+  Train Loss: 0.4541
+  epoch_time: 45.4618
+  throughput: 1.9797
+  IoU: 0.7887
+  Dice: 0.8817
+  F1: 0.8817
+
+Epoch 59/200
+  Train Loss: 0.4508
+  epoch_time: 43.9804
+  throughput: 2.0464
+  IoU: 0.7856
+  Dice: 0.8797
+  F1: 0.8797
+
+Epoch 60/200
+  Train Loss: 0.4475
+  epoch_time: 41.7381
+  throughput: 2.1563
+  IoU: 0.7886
+  Dice: 0.8816
+  F1: 0.8816
+
+Epoch 61/200
+  Train Loss: 0.4490
+  epoch_time: 39.9164
+  throughput: 2.2547
+  IoU: 0.7848
+  Dice: 0.8792
+  F1: 0.8792
+
+Epoch 62/200
+  Train Loss: 0.4478
+  epoch_time: 38.7778
+  throughput: 2.3209
+  IoU: 0.7906
+  Dice: 0.8829
+  F1: 0.8829
+
+Epoch 63/200
+  Train Loss: 0.4423
+  epoch_time: 39.2025
+  throughput: 2.2958
+  IoU: 0.7874
+  Dice: 0.8808
+  F1: 0.8808
+
+Epoch 64/200
+  Train Loss: 0.4422
+  epoch_time: 40.1263
+  throughput: 2.2429
+  IoU: 0.7870
+  Dice: 0.8806
+  F1: 0.8806
+
+Epoch 65/200
+  Train Loss: 0.4424
+  epoch_time: 40.1077
+  throughput: 2.2440
+  IoU: 0.7911
+  Dice: 0.8832
+  F1: 0.8832
+
+Epoch 66/200
+  Train Loss: 0.4408
+  epoch_time: 39.9205
+  throughput: 2.2545
+  IoU: 0.7937
+  Dice: 0.8848
+  F1: 0.8848
+
+Epoch 67/200
+  Train Loss: 0.4408
+  epoch_time: 39.7138
+  throughput: 2.2662
+  IoU: 0.7930
+  Dice: 0.8844
+  F1: 0.8844
+
+Epoch 68/200
+  Train Loss: 0.4413
+  epoch_time: 39.2894
+  throughput: 2.2907
+  IoU: 0.7956
+  Dice: 0.8860
+  F1: 0.8860
+
+Epoch 69/200
+  Train Loss: 0.4407
+  epoch_time: 38.5093
+  throughput: 2.3371
+  IoU: 0.7927
+  Dice: 0.8842
+  F1: 0.8842
+
+Epoch 70/200
+  Train Loss: 0.4419
+  epoch_time: 39.8716
+  throughput: 2.2572
+  IoU: 0.7863
+  Dice: 0.8801
+  F1: 0.8801
+
+Epoch 71/200
+  Train Loss: 0.4475
+  epoch_time: 39.5129
+  throughput: 2.2777
+  IoU: 0.7931
+  Dice: 0.8844
+  F1: 0.8844
+
+Epoch 72/200
+  Train Loss: 0.4454
+  epoch_time: 38.9837
+  throughput: 2.3087
+  IoU: 0.7926
+  Dice: 0.8841
+  F1: 0.8841
+
+Epoch 73/200
+  Train Loss: 0.4430
+  epoch_time: 38.4370
+  throughput: 2.3415
+  IoU: 0.7986
+  Dice: 0.8879
+  F1: 0.8879
+
+Epoch 74/200
+  Train Loss: 0.4384
+  epoch_time: 40.7856
+  throughput: 2.2067
+  IoU: 0.7914
+  Dice: 0.8833
+  F1: 0.8833
+
+Epoch 75/200
+  Train Loss: 0.4377
+  epoch_time: 41.9393
+  throughput: 2.1460
+  IoU: 0.7960
+  Dice: 0.8862
+  F1: 0.8862
+
+Epoch 76/200
+  Train Loss: 0.4354
+  epoch_time: 40.5289
+  throughput: 2.2206
+  IoU: 0.7931
+  Dice: 0.8844
+  F1: 0.8844
+
+Epoch 77/200
+  Train Loss: 0.4380
+  epoch_time: 40.8754
+  throughput: 2.2018
+  IoU: 0.7985
+  Dice: 0.8878
+  F1: 0.8878
+
+Epoch 78/200
+  Train Loss: 0.4333
+  epoch_time: 41.2382
+  throughput: 2.1824
+  IoU: 0.7965
+  Dice: 0.8865
+  F1: 0.8865
+
+Epoch 79/200
+  Train Loss: 0.4310
+  epoch_time: 43.0588
+  throughput: 2.0902
+  IoU: 0.7954
+  Dice: 0.8858
+  F1: 0.8858
+
+Epoch 80/200
+  Train Loss: 0.4356
+  epoch_time: 44.4717
+  throughput: 2.0238
+  IoU: 0.7953
+  Dice: 0.8858
+  F1: 0.8858
+
+Epoch 81/200
+  Train Loss: 0.4367
+  epoch_time: 44.0599
+  throughput: 2.0427
+  IoU: 0.7877
+  Dice: 0.8810
+  F1: 0.8810
+
+Epoch 82/200
+  Train Loss: 0.4450
+  epoch_time: 44.5414
+  throughput: 2.0206
+  IoU: 0.7995
+  Dice: 0.8884
+  F1: 0.8884
+
+Epoch 83/200
+  Train Loss: 0.4384
+  epoch_time: 45.0973
+  throughput: 1.9957
+  IoU: 0.7911
+  Dice: 0.8831
+  F1: 0.8831
+
+Epoch 84/200
+  Train Loss: 0.4325
+  epoch_time: 44.3686
+  throughput: 2.0285
+  IoU: 0.8016
+  Dice: 0.8897
+  F1: 0.8897
+
+Epoch 85/200
+  Train Loss: 0.4335
+  epoch_time: 43.0274
+  throughput: 2.0917
+  IoU: 0.7968
+  Dice: 0.8867
+  F1: 0.8867
+
+Epoch 86/200
+  Train Loss: 0.4300
+  epoch_time: 45.7799
+  throughput: 1.9659
+  IoU: 0.7942
+  Dice: 0.8850
+  F1: 0.8850
+
+Epoch 87/200
+  Train Loss: 0.4334
+  epoch_time: 46.6896
+  throughput: 1.9276
+  IoU: 0.7969
+  Dice: 0.8868
+  F1: 0.8868
+
+Epoch 88/200
+  Train Loss: 0.4339
+  epoch_time: 44.9711
+  throughput: 2.0013
+  IoU: 0.7862
+  Dice: 0.8800
+  F1: 0.8800
+
+Epoch 89/200
+  Train Loss: 0.4317
+  epoch_time: 45.8986
+  throughput: 1.9608
+  IoU: 0.7947
+  Dice: 0.8854
+  F1: 0.8854
+
+Epoch 90/200
+  Train Loss: 0.4349
+  epoch_time: 44.0337
+  throughput: 2.0439
+  IoU: 0.7981
+  Dice: 0.8875
+  F1: 0.8875
+
+Epoch 91/200
+  Train Loss: 0.4282
+  epoch_time: 44.9903
+  throughput: 2.0004
+  IoU: 0.7962
+  Dice: 0.8863
+  F1: 0.8863
+
+Epoch 92/200
+  Train Loss: 0.4232
+  epoch_time: 44.9953
+  throughput: 2.0002
+  IoU: 0.7996
+  Dice: 0.8884
+  F1: 0.8884
+
+Epoch 93/200
+  Train Loss: 0.4251
+  epoch_time: 43.6783
+  throughput: 2.0605
+  IoU: 0.7901
+  Dice: 0.8825
+  F1: 0.8825
+
+Epoch 94/200
+  Train Loss: 0.4360
+  epoch_time: 43.5777
+  throughput: 2.0653
+  IoU: 0.7916
+  Dice: 0.8835
+  F1: 0.8835
+
+Epoch 95/200
+  Train Loss: 0.4301
+  epoch_time: 44.5418
+  throughput: 2.0206
+  IoU: 0.7992
+  Dice: 0.8882
+  F1: 0.8882
+
+Epoch 96/200
+  Train Loss: 0.4240
+  epoch_time: 45.0189
+  throughput: 1.9992
+  IoU: 0.7973
+  Dice: 0.8870
+  F1: 0.8870
+
+Epoch 97/200
+  Train Loss: 0.4264
+  epoch_time: 43.9879
+  throughput: 2.0460
+  IoU: 0.7970
+  Dice: 0.8868
+  F1: 0.8868
+
+Epoch 98/200
+  Train Loss: 0.4225
+  epoch_time: 42.9350
+  throughput: 2.0962
+  IoU: 0.8013
+  Dice: 0.8895
+  F1: 0.8895
+
+Epoch 99/200
+  Train Loss: 0.4254
+  epoch_time: 42.7084
+  throughput: 2.1073
+  IoU: 0.7934
+  Dice: 0.8846
+  F1: 0.8846
+
+Epoch 100/200
+  Train Loss: 0.4249
+  epoch_time: 41.6945
+  throughput: 2.1586
+  IoU: 0.8054
+  Dice: 0.8920
+  F1: 0.8920
+
+Epoch 101/200
+  Train Loss: 0.4238
+  epoch_time: 41.3957
+  throughput: 2.1741
+  IoU: 0.7986
+  Dice: 0.8878
+  F1: 0.8878
+
+Epoch 102/200
+  Train Loss: 0.4199
+  epoch_time: 41.8720
+  throughput: 2.1494
+  IoU: 0.8060
+  Dice: 0.8924
+  F1: 0.8924
+
+Epoch 103/200
+  Train Loss: 0.4259
+  epoch_time: 41.1340
+  throughput: 2.1880
+  IoU: 0.8029
+  Dice: 0.8905
+  F1: 0.8905
+
+Epoch 104/200
+  Train Loss: 0.4208
+  epoch_time: 41.6109
+  throughput: 2.1629
+  IoU: 0.7873
+  Dice: 0.8807
+  F1: 0.8807
+
+Epoch 105/200
+  Train Loss: 0.4197
+  epoch_time: 43.5887
+  throughput: 2.0648
+  IoU: 0.8041
+  Dice: 0.8912
+  F1: 0.8912
+
+Epoch 106/200
+  Train Loss: 0.4213
+  epoch_time: 44.1857
+  throughput: 2.0369
+  IoU: 0.7969
+  Dice: 0.8868
+  F1: 0.8868
+
+Epoch 107/200
+  Train Loss: 0.4159
+  epoch_time: 45.0455
+  throughput: 1.9980
+  IoU: 0.7921
+  Dice: 0.8837
+  F1: 0.8837
+
+Epoch 108/200
+  Train Loss: 0.4237
+  epoch_time: 45.3562
+  throughput: 1.9843
+  IoU: 0.8059
+  Dice: 0.8924
+  F1: 0.8924
+
+Epoch 109/200
+  Train Loss: 0.4166
+  epoch_time: 44.3029
+  throughput: 2.0315
+  IoU: 0.8008
+  Dice: 0.8892
+  F1: 0.8892
+
+Epoch 110/200
+  Train Loss: 0.4166
+  epoch_time: 44.0233
+  throughput: 2.0444
+  IoU: 0.8005
+  Dice: 0.8890
+  F1: 0.8890
+
+Epoch 111/200
+  Train Loss: 0.4193
+  epoch_time: 46.1441
+  throughput: 1.9504
+  IoU: 0.7958
+  Dice: 0.8861
+  F1: 0.8861
+
+Epoch 112/200
+  Train Loss: 0.4179
+  epoch_time: 46.1684
+  throughput: 1.9494
+  IoU: 0.8027
+  Dice: 0.8904
+  F1: 0.8904
+
+Epoch 113/200
+  Train Loss: 0.4152
+  epoch_time: 43.6167
+  throughput: 2.0634
+  IoU: 0.7955
+  Dice: 0.8859
+  F1: 0.8859
+
+Epoch 114/200
+  Train Loss: 0.4150
+  epoch_time: 42.9869
+  throughput: 2.0937
+  IoU: 0.7977
+  Dice: 0.8872
+  F1: 0.8872
+
+Epoch 115/200
+  Train Loss: 0.4248
+  epoch_time: 42.1779
+  throughput: 2.1338
+  IoU: 0.7982
+  Dice: 0.8875
+  F1: 0.8875
+
+Epoch 116/200
+  Train Loss: 0.4177
+  epoch_time: 42.3228
+  throughput: 2.1265
+  IoU: 0.7942
+  Dice: 0.8851
+  F1: 0.8851
+
+Epoch 117/200
+  Train Loss: 0.4158
+  epoch_time: 40.4706
+  throughput: 2.2238
+  IoU: 0.7840
+  Dice: 0.8786
+  F1: 0.8786
+
+Epoch 118/200
+  Train Loss: 0.4146
+  epoch_time: 39.5359
+  throughput: 2.2764
+  IoU: 0.7963
+  Dice: 0.8864
+  F1: 0.8864
+
+Epoch 119/200
+  Train Loss: 0.4134
+  epoch_time: 38.5353
+  throughput: 2.3355
+  IoU: 0.7989
+  Dice: 0.8879
+  F1: 0.8879
+
+Epoch 120/200
+  Train Loss: 0.4165
+  epoch_time: 38.1176
+  throughput: 2.3611
+  IoU: 0.8040
+  Dice: 0.8912
+  F1: 0.8912
+
+Epoch 121/200
+  Train Loss: 0.4162
+  epoch_time: 38.2935
+  throughput: 2.3503
+  IoU: 0.7952
+  Dice: 0.8857
+  F1: 0.8857
+
+Epoch 122/200
+  Train Loss: 0.4160
+  epoch_time: 38.2051
+  throughput: 2.3557
+  IoU: 0.7956
+  Dice: 0.8859
+  F1: 0.8859
+
+Epoch 123/200
+  Train Loss: 0.4108
+  epoch_time: 37.6467
+  throughput: 2.3906
+  IoU: 0.7952
+  Dice: 0.8856
+  F1: 0.8856
+
+Epoch 124/200
+  Train Loss: 0.4119
+  epoch_time: 39.6030
+  throughput: 2.2726
+  IoU: 0.7926
+  Dice: 0.8840
+  F1: 0.8840
+
+Epoch 125/200
+  Train Loss: 0.4108
+  epoch_time: 40.3161
+  throughput: 2.2324
+  IoU: 0.8016
+  Dice: 0.8896
+  F1: 0.8896
+
+Epoch 126/200
+  Train Loss: 0.4091
+  epoch_time: 39.6117
+  throughput: 2.2721
+  IoU: 0.7813
+  Dice: 0.8769
+  F1: 0.8769
+
+Epoch 127/200
+  Train Loss: 0.4143
+  epoch_time: 40.4017
+  throughput: 2.2276
+  IoU: 0.8106
+  Dice: 0.8952
+  F1: 0.8952
+
+Epoch 128/200
+  Train Loss: 0.4174
+  epoch_time: 39.4332
+  throughput: 2.2823
+  IoU: 0.7909
+  Dice: 0.8830
+  F1: 0.8830
+
+Epoch 129/200
+  Train Loss: 0.4142
+  epoch_time: 40.5629
+  throughput: 2.2188
+  IoU: 0.8102
+  Dice: 0.8950
+  F1: 0.8950
+
+Epoch 130/200
+  Train Loss: 0.4128
+  epoch_time: 39.7551
+  throughput: 2.2639
+  IoU: 0.7873
+  Dice: 0.8807
+  F1: 0.8807
+
+Epoch 131/200
+  Train Loss: 0.4137
+  epoch_time: 40.6060
+  throughput: 2.2164
+  IoU: 0.7964
+  Dice: 0.8864
+  F1: 0.8864
+
+Epoch 132/200
+  Train Loss: 0.4126
+  epoch_time: 40.7030
+  throughput: 2.2111
+  IoU: 0.8064
+  Dice: 0.8926
+  F1: 0.8926
+
+Epoch 133/200
+  Train Loss: 0.4090
+  epoch_time: 40.8690
+  throughput: 2.2022
+  IoU: 0.8006
+  Dice: 0.8890
+  F1: 0.8890
+
+Epoch 134/200
+  Train Loss: 0.4108
+  epoch_time: 40.8607
+  throughput: 2.2026
+  IoU: 0.7976
+  Dice: 0.8872
+  F1: 0.8872
+
+Epoch 135/200
+  Train Loss: 0.4147
+  epoch_time: 40.2749
+  throughput: 2.2346
+  IoU: 0.8056
+  Dice: 0.8921
+  F1: 0.8921
+
+Epoch 136/200
+  Train Loss: 0.4099
+  epoch_time: 40.4568
+  throughput: 2.2246
+  IoU: 0.7881
+  Dice: 0.8812
+  F1: 0.8812
+
+Epoch 137/200
+  Train Loss: 0.4095
+  epoch_time: 40.7463
+  throughput: 2.2088
+  IoU: 0.8016
+  Dice: 0.8896
+  F1: 0.8896
+
+Epoch 138/200
+  Train Loss: 0.4062
+  epoch_time: 40.3335
+  throughput: 2.2314
+  IoU: 0.7945
+  Dice: 0.8852
+  F1: 0.8852
+
+Epoch 139/200
+  Train Loss: 0.4084
+  epoch_time: 39.5123
+  throughput: 2.2778
+  IoU: 0.8007
+  Dice: 0.8891
+  F1: 0.8891
+
+Epoch 140/200
+  Train Loss: 0.4073
+  epoch_time: 40.1580
+  throughput: 2.2411
+  IoU: 0.8148
+  Dice: 0.8978
+  F1: 0.8978
+
+Epoch 141/200
+  Train Loss: 0.4093
+  epoch_time: 39.8256
+  throughput: 2.2599
+  IoU: 0.7881
+  Dice: 0.8812
+  F1: 0.8812
+
+Epoch 142/200
+  Train Loss: 0.4076
+  epoch_time: 39.7688
+  throughput: 2.2631
+  IoU: 0.8030
+  Dice: 0.8905
+  F1: 0.8905
+
+Epoch 143/200
+  Train Loss: 0.4102
+  epoch_time: 40.3466
+  throughput: 2.2307
+  IoU: 0.8116
+  Dice: 0.8958
+  F1: 0.8958
+
+Epoch 144/200
+  Train Loss: 0.4094
+  epoch_time: 40.0923
+  throughput: 2.2448
+  IoU: 0.7800
+  Dice: 0.8761
+  F1: 0.8761
+
+Epoch 145/200
+  Train Loss: 0.4107
+  epoch_time: 40.4540
+  throughput: 2.2247
+  IoU: 0.8112
+  Dice: 0.8955
+  F1: 0.8955
+
+Epoch 146/200
+  Train Loss: 0.4102
+  epoch_time: 40.4583
+  throughput: 2.2245
+  IoU: 0.8003
+  Dice: 0.8888
+  F1: 0.8888
+
+Epoch 147/200
+  Train Loss: 0.4062
+  epoch_time: 40.4459
+  throughput: 2.2252
+  IoU: 0.8000
+  Dice: 0.8887
+  F1: 0.8887
+
+Epoch 148/200
+  Train Loss: 0.4076
+  epoch_time: 41.6399
+  throughput: 2.1614
+  IoU: 0.8085
+  Dice: 0.8939
+  F1: 0.8939
+
+Epoch 149/200
+  Train Loss: 0.4097
+  epoch_time: 41.3078
+  throughput: 2.1788
+  IoU: 0.7934
+  Dice: 0.8845
+  F1: 0.8845
+
+Epoch 150/200
+  Train Loss: 0.4076
+  epoch_time: 41.9020
+  throughput: 2.1479
+  IoU: 0.8064
+  Dice: 0.8926
+  F1: 0.8926
+
+Epoch 151/200
+  Train Loss: 0.4110
+  epoch_time: 40.7459
+  throughput: 2.2088
+  IoU: 0.7946
+  Dice: 0.8853
+  F1: 0.8853
+
+Epoch 152/200
+  Train Loss: 0.4028
+  epoch_time: 39.9978
+  throughput: 2.2501
+  IoU: 0.8033
+  Dice: 0.8907
+  F1: 0.8907
+
+Epoch 153/200
+  Train Loss: 0.4083
+  epoch_time: 39.1244
+  throughput: 2.3004
+  IoU: 0.8012
+  Dice: 0.8894
+  F1: 0.8894
+
+Epoch 154/200
+  Train Loss: 0.4032
+  epoch_time: 39.1300
+  throughput: 2.3000
+  IoU: 0.7882
+  Dice: 0.8813
+  F1: 0.8813
+
+Epoch 155/200
+  Train Loss: 0.4069
+  epoch_time: 39.2856
+  throughput: 2.2909
+  IoU: 0.8007
+  Dice: 0.8891
+  F1: 0.8891
+
+Epoch 156/200
+  Train Loss: 0.4053
+  epoch_time: 39.2823
+  throughput: 2.2911
+  IoU: 0.7829
+  Dice: 0.8779
+  F1: 0.8779
+
+Epoch 157/200
+  Train Loss: 0.4018
+  epoch_time: 38.3940
+  throughput: 2.3441
+  IoU: 0.8042
+  Dice: 0.8912
+  F1: 0.8912
+
+Epoch 158/200
+  Train Loss: 0.4028
+  epoch_time: 39.0009
+  throughput: 2.3076
+  IoU: 0.8067
+  Dice: 0.8928
+  F1: 0.8928
+
+Epoch 159/200
+  Train Loss: 0.4041
+  epoch_time: 38.7832
+  throughput: 2.3206
+  IoU: 0.8063
+  Dice: 0.8925
+  F1: 0.8925
+
+Epoch 160/200
+  Train Loss: 0.3983
+  epoch_time: 40.1409
+  throughput: 2.2421
+  IoU: 0.8095
+  Dice: 0.8945
+  F1: 0.8945
+
+Epoch 161/200
+  Train Loss: 0.4019
+  epoch_time: 41.1699
+  throughput: 2.1861
+  IoU: 0.7976
+  Dice: 0.8871
+  F1: 0.8871
+
+Epoch 162/200
+  Train Loss: 0.3995
+  epoch_time: 41.5064
+  throughput: 2.1683
+  IoU: 0.8006
+  Dice: 0.8889
+  F1: 0.8889
+
+Epoch 163/200
+  Train Loss: 0.3989
+  epoch_time: 41.3781
+  throughput: 2.1751
+  IoU: 0.7966
+  Dice: 0.8865
+  F1: 0.8865
+
+Epoch 164/200
+  Train Loss: 0.3991
+  epoch_time: 39.5557
+  throughput: 2.2753
+  IoU: 0.8106
+  Dice: 0.8951
+  F1: 0.8951
+
+Epoch 165/200
+  Train Loss: 0.4042
+  epoch_time: 38.0311
+  throughput: 2.3665
+  IoU: 0.8022
+  Dice: 0.8900
+  F1: 0.8900
+
+Epoch 166/200
+  Train Loss: 0.3986
+  epoch_time: 37.2108
+  throughput: 2.4187
+  IoU: 0.7879
+  Dice: 0.8811
+  F1: 0.8811
+
+Epoch 167/200
+  Train Loss: 0.4048
+  epoch_time: 39.4174
+  throughput: 2.2833
+  IoU: 0.8011
+  Dice: 0.8893
+  F1: 0.8893
+
+Epoch 168/200
+  Train Loss: 0.4037
+  epoch_time: 39.6983
+  throughput: 2.2671
+  IoU: 0.7953
+  Dice: 0.8857
+  F1: 0.8857
+
+Epoch 169/200
+  Train Loss: 0.4053
+  epoch_time: 40.1310
+  throughput: 2.2427
+  IoU: 0.8037
+  Dice: 0.8909
+  F1: 0.8909
+
+Epoch 170/200
+  Train Loss: 0.3977
+  epoch_time: 39.1718
+  throughput: 2.2976
+  IoU: 0.7984
+  Dice: 0.8876
+  F1: 0.8876
+
+Epoch 171/200
+  Train Loss: 0.3972
+  epoch_time: 39.8584
+  throughput: 2.2580
+  IoU: 0.7948
+  Dice: 0.8854
+  F1: 0.8854
+
+Epoch 172/200
+  Train Loss: 0.4000
+  epoch_time: 39.6061
+  throughput: 2.2724
+  IoU: 0.7967
+  Dice: 0.8866
+  F1: 0.8866
+
+Epoch 173/200
+  Train Loss: 0.3965
+  epoch_time: 39.7319
+  throughput: 2.2652
+  IoU: 0.8057
+  Dice: 0.8922
+  F1: 0.8922
+
+Epoch 174/200
+  Train Loss: 0.3974
+  epoch_time: 38.5443
+  throughput: 2.3350
+  IoU: 0.7964
+  Dice: 0.8864
+  F1: 0.8864
+
+Epoch 175/200
+  Train Loss: 0.3973
+  epoch_time: 39.4978
+  throughput: 2.2786
+  IoU: 0.7997
+  Dice: 0.8884
+  F1: 0.8884
+
+Epoch 176/200
+  Train Loss: 0.4002
+  epoch_time: 39.5524
+  throughput: 2.2755
+  IoU: 0.8031
+  Dice: 0.8905
+  F1: 0.8905
+
+Epoch 177/200
+  Train Loss: 0.3970
+  epoch_time: 39.6659
+  throughput: 2.2690
+  IoU: 0.8069
+  Dice: 0.8929
+  F1: 0.8929
+
+Epoch 178/200
+  Train Loss: 0.3953
+  epoch_time: 39.7339
+  throughput: 2.2651
+  IoU: 0.8047
+  Dice: 0.8915
+  F1: 0.8915
+
+Epoch 179/200
+  Train Loss: 0.3958
+  epoch_time: 40.3537
+  throughput: 2.2303
+  IoU: 0.8034
+  Dice: 0.8907
+  F1: 0.8907
+
+Epoch 180/200
+  Train Loss: 0.3945
+  epoch_time: 41.3951
+  throughput: 2.1742
+  IoU: 0.7914
+  Dice: 0.8833
+  F1: 0.8833
+
+Epoch 181/200
+  Train Loss: 0.3932
+  epoch_time: 40.3833
+  throughput: 2.2286
+  IoU: 0.8020
+  Dice: 0.8899
+  F1: 0.8899
+
+Epoch 182/200
+  Train Loss: 0.3932
+  epoch_time: 41.0594
+  throughput: 2.1919
+  IoU: 0.7953
+  Dice: 0.8857
+  F1: 0.8857
+
+Epoch 183/200
+  Train Loss: 0.3938
+  epoch_time: 41.0542
+  throughput: 2.1922
+  IoU: 0.8160
+  Dice: 0.8984
+  F1: 0.8984
+
+Epoch 184/200
+  Train Loss: 0.3943
+  epoch_time: 41.6946
+  throughput: 2.1586
+  IoU: 0.8023
+  Dice: 0.8900
+  F1: 0.8900
+
+Epoch 185/200
+  Train Loss: 0.3929
+  epoch_time: 42.4017
+  throughput: 2.1226
+  IoU: 0.8058
+  Dice: 0.8922
+  F1: 0.8922
+
+Epoch 186/200
+  Train Loss: 0.3942
+  epoch_time: 41.4350
+  throughput: 2.1721
+  IoU: 0.7926
+  Dice: 0.8840
+  F1: 0.8840
+
+Epoch 187/200
+  Train Loss: 0.3925
+  epoch_time: 42.0884
+  throughput: 2.1384
+  IoU: 0.8057
+  Dice: 0.8922
+  F1: 0.8922
+
+Epoch 188/200
+  Train Loss: 0.3944
+  epoch_time: 42.0606
+  throughput: 2.1398
+  IoU: 0.8037
+  Dice: 0.8909
+  F1: 0.8909
+
+Epoch 189/200
+  Train Loss: 0.3936
+  epoch_time: 43.4115
+  throughput: 2.0732
+  IoU: 0.7964
+  Dice: 0.8864
+  F1: 0.8864
+
+Epoch 190/200
+  Train Loss: 0.3928
+  epoch_time: 43.1630
+  throughput: 2.0851
+  IoU: 0.8033
+  Dice: 0.8907
+  F1: 0.8907
+
+Epoch 191/200
+  Train Loss: 0.3910
+  epoch_time: 41.9319
+  throughput: 2.1463
+  IoU: 0.7969
+  Dice: 0.8867
+  F1: 0.8867
+
+Epoch 192/200
+  Train Loss: 0.3906
+  epoch_time: 41.2485
+  throughput: 2.1819
+  IoU: 0.8058
+  Dice: 0.8922
+  F1: 0.8922
+
+Epoch 193/200
+  Train Loss: 0.3904
+  epoch_time: 40.9820
+  throughput: 2.1961
+  IoU: 0.8057
+  Dice: 0.8921
+  F1: 0.8921
+
+Epoch 194/200
+  Train Loss: 0.3917
+  epoch_time: 39.1398
+  throughput: 2.2994
+  IoU: 0.7985
+  Dice: 0.8877
+  F1: 0.8877
+
+Epoch 195/200
+  Train Loss: 0.3911
+  epoch_time: 40.5982
+  throughput: 2.2168
+  IoU: 0.7987
+  Dice: 0.8878
+  F1: 0.8878
+
+Epoch 196/200
+  Train Loss: 0.3892
+  epoch_time: 40.8235
+  throughput: 2.2046
+  IoU: 0.8066
+  Dice: 0.8927
+  F1: 0.8927
+
+Epoch 197/200
+  Train Loss: 0.3914
+  epoch_time: 40.9179
+  throughput: 2.1995
+  IoU: 0.8056
+  Dice: 0.8921
+  F1: 0.8921
+
+Epoch 198/200
+  Train Loss: 0.3901
+  epoch_time: 40.4681
+  throughput: 2.2240
+  IoU: 0.8186
+  Dice: 0.9001
+  F1: 0.9001
+
+Epoch 199/200
+  Train Loss: 0.3914
+  epoch_time: 40.1725
+  throughput: 2.2403
+  IoU: 0.8053
+  Dice: 0.8919
+  F1: 0.8919
+
+Epoch 200/200
+  Train Loss: 0.3907
+  epoch_time: 39.2915
+  throughput: 2.2906
+  IoU: 0.8085
+  Dice: 0.8939
+  F1: 0.8939
+
+
+===== 平均性能指标 =====
+中间一半epoch范围: 51 ~ 151
+平均epoch_time: 41.8395 秒
+平均throughput: 2.1573 images/sec
+
+===== 最佳结果 =====
+最佳epoch: 198
+最佳IoU: 0.8186
+最佳Dice: 0.9001
+最佳F1: 0.9001
